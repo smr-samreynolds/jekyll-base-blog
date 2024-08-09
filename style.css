@@ -1,5 +1,32 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer,
+section {
+  padding: 5%;
+  border: 1px solid lightgray;
+}
+
+.padded-1 {
+  padding: 1rem;
+}
+
+.intro {
+  text-transform: uppercase;
+  background-color: paleturquoise;
+  color: midnightblue;
+}
+
+.category {
+  border: 1px solid;
+  padding: 0.1rem;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: lavender;
+  color: midnightblue;
+  text-transform: lowercase;
 }
